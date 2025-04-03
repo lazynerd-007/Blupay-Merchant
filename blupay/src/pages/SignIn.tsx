@@ -18,7 +18,12 @@ interface FormErrors {
   password: string;
 }
 
-const SignIn: React.FC = () => {
+interface SignInProps {
+  onForgotPassword: () => void;
+  onSignUp?: () => void;
+}
+
+const SignIn: React.FC<SignInProps> = ({ onForgotPassword, onSignUp }) => {
   const [formState, setFormState] = useState<FormState>({
     email: "",
     password: "",
@@ -98,7 +103,10 @@ const SignIn: React.FC = () => {
           <span className="font-['Urbanist',_-apple-system,_Roboto,_Helvetica,_sans-serif]">
             Don't have an account?{" "}
           </span>
-          <span className="font-['Urbanist',_-apple-system,_Roboto,_Helvetica,_sans-serif] font-medium text-[rgba(0,9,87,1)]">
+          <span
+            className="font-['Urbanist',_-apple-system,_Roboto,_Helvetica,_sans-serif] font-medium text-[rgba(0,9,87,1)] cursor-pointer"
+            onClick={onSignUp}
+          >
             Sign Up
           </span>
         </div>
@@ -252,7 +260,10 @@ const SignIn: React.FC = () => {
                         Remember Me
                       </label>
                     </div>
-                    <div className="flex-1 shrink self-stretch my-auto text-sm text-right text-blue-500 basis-0 cursor-pointer">
+                    <div
+                      className="flex-1 shrink self-stretch my-auto text-sm text-right text-blue-500 basis-0 cursor-pointer hover:underline"
+                      onClick={onForgotPassword}
+                    >
                       Forgot Password?
                     </div>
                   </div>

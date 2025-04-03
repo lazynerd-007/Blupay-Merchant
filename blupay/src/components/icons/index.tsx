@@ -163,3 +163,46 @@ export const CheckboxIcon: React.FC<CheckboxIconProps> = ({ checked }) => (
     )}
   </div>
 );
+
+export const ProfileCircleIcon: React.FC = () => (
+  <div className="flex shrink-0 self-stretch my-auto h-[30px] w-[30px] items-center justify-center">
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M10.0001 1.66666C5.41675 1.66666 1.66675 5.41666 1.66675 10C1.66675 14.5833 5.41675 18.3333 10.0001 18.3333C14.5834 18.3333 18.3334 14.5833 18.3334 10C18.3334 5.41666 14.5834 1.66666 10.0001 1.66666Z"
+        stroke="#94A3B8"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M3.27502 15.4583C3.27502 15.4583 5.16669 12.9167 10.0001 12.9167C14.8334 12.9167 16.725 15.4583 16.725 15.4583"
+        stroke="#94A3B8"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M10.0001 10C11.3808 10 12.5001 8.88071 12.5001 7.5C12.5001 6.11929 11.3808 5 10.0001 5C8.61937 5 7.50008 6.11929 7.50008 7.5C7.50008 8.88071 8.61937 10 10.0001 10Z"
+        stroke="#94A3B8"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  </div>
+);
+
+export const NigeriaFlagIcon: React.FC = () => (
+  <div className="flex overflow-hidden flex-col justify-center self-stretch px-0.5 py-1.5 my-auto w-[30px]">
+    <div className="flex pl-1.5 bg-green-600 rounded">
+      <div className="flex shrink-0 w-2.5 bg-zinc-50 h-[18px]" />
+      <div className="flex shrink-0 w-2 bg-green-600 rounded h-[18px]" />
+    </div>
+  </div>
+);
