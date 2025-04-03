@@ -1,46 +1,132 @@
-# Getting Started with Create React App
+# 💙 BluPay Merchant Portal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <img src="https://cdn.builder.io/api/v1/image/assets/26f75009eb984fdf84e8a5f10f28c4b7/9b7e78e313baed7c6a4c8f4713616b5b04744706" alt="BluPay Logo" width="200"/>
+  
+  <p align="center">
+    A modern, secure payment solution for merchants
+    <br />
+    <a href="#demo"><strong>View Demo »</strong></a>
+    <br />
+    <br />
+    <a href="#features">Features</a>
+    ·
+    <a href="#getting-started">Getting Started</a>
+    ·
+    <a href="#usage">Usage</a>
+    ·
+    <a href="#roadmap">Roadmap</a>
+  </p>
+</div>
 
-## Available Scripts
+## ✨ Overview
 
-In the project directory, you can run:
+BluPay Merchant Portal is a cutting-edge payment processing platform designed for businesses of all sizes. Built with React, TypeScript, and Tailwind CSS, it offers a seamless and intuitive interface for merchants to manage transactions, track analytics, and streamline their payment processes.
 
-### `npm start`
+![Screenshot](https://placehold.co/600x400?text=BluPay+Screenshot)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚀 Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Secure Authentication System**
+  - Multi-step password recovery with email verification
+  - Two-factor authentication support
+  - Session management
 
-### `npm test`
+- **Intuitive Dashboard**
+  - Real-time transaction monitoring
+  - Analytics and reporting tools
+  - Customer insights
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Payment Processing**
+  - Multiple payment method support
+  - International currency conversion
+  - Transaction history and receipt generation
 
-### `npm run build`
+- **Modern UI/UX**
+  - Responsive design for all devices
+  - Accessibility compliant
+  - Dark/Light mode support
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [React](https://reactjs.org/) - Frontend library
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [Builder.io](https://builder.io/) - Content management
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🏁 Getting Started
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Node.js (v16 or later)
+- npm or yarn
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Clone the repository
+   ```sh
+   git clone https://github.com/your-organization/blupay-merchant.git
+   ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+2. Install NPM packages
+   ```sh
+   cd blupay
+   npm install
+   ```
 
-## Learn More
+3. Start the development server
+   ```sh
+   npm start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📖 Usage
+
+### Account Management
+
+BluPay provides a comprehensive user management system:
+
+- Create an account with email verification
+- Secure authentication with password policies
+- Password recovery through email verification
+- Profile management
+
+### Transaction Processing
+
+- Accept payments from multiple sources
+- Track transaction status in real-time
+- Generate invoices and receipts
+- Manage refunds and disputes
+
+## 🔮 Roadmap
+
+- [ ] Advanced analytics dashboard
+- [ ] Mobile application support
+- [ ] API integration for third-party services
+- [ ] Subscription management
+- [ ] Enhanced security features
+
+## 🤝 Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## 📞 Contact
+
+Project Link: [https://github.com/your-organization/blupay-merchant](https://github.com/your-organization/blupay-merchant)
+
+---
+
+<div align="center">
+  <p>Built with ❤️ by the BluPay Team</p>
+</div>
